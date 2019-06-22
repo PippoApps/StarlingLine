@@ -3,13 +3,9 @@ Class to simply draw and update lines in ActionScript 3 in Starling framework.
 Line.as extends starling.Canvas.
 
 
-Part of the larger PippoFlash framework, but in this repository you will find only the essential: Line class and UNumber class.
-
-
 Use as follows:
 
 import flash.geom.Point;
-
 import com.pippoflash.framework.starling.gui.parts.Line;
 
 // Parameters are: color, stroke width, origin, destination
