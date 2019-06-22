@@ -1,6 +1,8 @@
 # StarlingLine
 Class to simply draw and update lines in ActionScript 3 in Starling framework.
-Line.as extends starling.Canvas.
+Line.as extends starling.Canvas. Each line is a single instance that can be added, used and updated.
+Being a canvas extension, this can be also used for other effects, like i.e. drawing a circle at the origin of canvas.
+The instance itself gets repositioned and rotated, so if you draw other elements inside the canvas they will be rotated and repositioned at line origin 
 
 
 Use as follows:
@@ -27,4 +29,4 @@ line.color = 0xffffff;
 line.strokeWidth = 5;
 
 
-// BEWARE - this is a canvas extension. The instance itself gets repositioned and rotated, so if you draw other elements inside the canvas they will be rotated and repositioned along the line. This might be a desired effect.
+
