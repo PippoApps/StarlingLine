@@ -13,6 +13,7 @@ import com.pippoflash.framework.starling.gui.parts.Line;
 // Parameters are: color, stroke width, origin, destination
 
 var line:Line = new Line(0xff0000, 1, new Point(0,0), new Point(100,100)); 
+
 addChild(line);
 
 
